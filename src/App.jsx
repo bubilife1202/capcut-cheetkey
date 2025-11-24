@@ -4,6 +4,36 @@ import { Copy, Check, ChevronDown, ChevronUp, DollarSign, Zap, Sparkles, Wrench,
 // 🔥 업그레이드된 치트키 데이터 (난이도, 효과, 경고, 비디오 타입 포함)
 const CHEAT_CODES = [
   // 🔴 Level 3: 극비 정보 (고급)
+  // 🔴 Level 3: 극비 정보 (고급)
+  {
+    id: 18,
+    category: "EFFICIENCY",
+    difficulty: "advanced",
+    title: "단축키 마스터 - 마우스 없이 편집하기",
+    desc: "30년차 에디터의 필수 단축키 세팅. 마우스 동선을 0으로 만듭니다.",
+    steps: [
+      "Timeline:",
+      "- 분할(Split): E, 모두 분할: Ctrl+E",
+      "- 모드 선택(Select Mode): A, 분할 모드: 0",
+      "- 방향 선택: [ (왼쪽), ] (오른쪽)",
+      "- 트랙 마그넷: P, 자동 스냅: N",
+      "- 줌: Ctrl + (확대), Ctrl - (축소)",
+      "Right Panel:",
+      "- 셔플 멈춤: K, 오른쪽 셔플: L",
+      "- 왼쪽 삭제: Q, 오른쪽 삭제: W",
+      "- 키프레임 추가: Alt+K"
+    ],
+    valueToCopy: "분할:E, 삭제:Q/W, 셔플:K/L, 줌:Ctrl+/-",
+    tags: ["단축키", "생산성", "필수설정"],
+    impact: {
+      timeSaving: "편집 속도 300% 향상",
+      moneySaving: null,
+      qualityBoost: null
+    },
+    warnings: ["⌨️ 키보드 레이아웃 확인 필요"],
+    videoType: ["all"],
+    relatedIds: [4, 15]
+  },
   {
     id: 9,
     category: "EFFICIENCY",
