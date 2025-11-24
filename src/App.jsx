@@ -200,6 +200,28 @@ const CHEAT_CODES = [
     videoType: ["all"],
     relatedIds: [9, 16]
   },
+  {
+    id: 19,
+    category: "MONEY_SAVER",
+    difficulty: "intermediate",
+    title: "유료급 효율 - 스틸 프레임 & 속성 복사",
+    desc: "외부 툴 없이 고화질 썸네일을 뽑고, 프리셋처럼 속성을 복사하는 숨겨진 단축키.",
+    steps: [
+      "1. 스틸 프레임 내보내기 (C): 영상에서 고화질 이미지 즉시 추출 (유료 썸네일 툴 대체)",
+      "2. 특성 복사 (Ctrl+Shift+C) / 붙여넣기 (Ctrl+Shift+V): 색보정/효과를 다른 클립에 1초 만에 적용",
+      "3. 실행 취소 (Ctrl+Z) / 복구 (Ctrl+Y): 실수해도 안심하고 과감하게 편집"
+    ],
+    valueToCopy: "썸네일:C, 속성복사:Ctrl+Shift+C/V",
+    tags: ["단축키", "썸네일", "생산성"],
+    impact: {
+      timeSaving: "작업 시간 50% 단축",
+      moneySaving: "썸네일/프리셋 툴 비용 절약",
+      qualityBoost: "일관된 톤앤매너 유지"
+    },
+    warnings: ["⌨️ 단축키 충돌 주의"],
+    videoType: ["youtube", "vlog"],
+    relatedIds: [18, 11]
+  },
 
   // 🟢 Level 1: 개선된 공개 정보 (입문)
   {
